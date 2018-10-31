@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e7e7"
+    android:orientation="vertical"
+    tools:context=".InfoFragment">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你还没有登记你的信息"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="学号"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="姓名"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="性别"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_sex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="出生日期"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_birth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="民族"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_nation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="籍贯"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_place"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="学院"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_academy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="专业"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_major"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="班级"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_class"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <!-- 横线  -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#bcb8b8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="联系电话"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+            <!-- 竖线  -->
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#bcb8b8" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_changeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button"
+        android:text="更改信息"
+        android:textColor="#2a5cf2"
+        android:textSize="20sp"/>
+
+</LinearLayout>
